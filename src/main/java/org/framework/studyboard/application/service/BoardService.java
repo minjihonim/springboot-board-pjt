@@ -1,10 +1,10 @@
-package org.prac.board.application.service;
+package org.framework.studyboard.application.service;
 
 import lombok.RequiredArgsConstructor;
+import org.framework.studyboard.application.dto.BoardItemListResDTO;
+import org.framework.studyboard.domain.model.Board;
+import org.framework.studyboard.infrastructure.persistence.BoardRepository;
 import org.modelmapper.ModelMapper;
-import org.prac.board.application.dto.BoardItemListResDTO;
-import org.prac.board.domain.model.Board;
-import org.prac.board.infrastructure.persistence.BoardRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;

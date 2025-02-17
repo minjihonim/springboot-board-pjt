@@ -1,4 +1,4 @@
-package org.prac.board.domain.model;
+package org.framework.studyboard.domain.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;

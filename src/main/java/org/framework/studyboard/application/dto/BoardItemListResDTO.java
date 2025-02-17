@@ -1,10 +1,9 @@
-package org.prac.board.application.dto;
+package org.framework.studyboard.application.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.prac.board.domain.model.Board;
 
 import java.time.LocalDateTime;
 

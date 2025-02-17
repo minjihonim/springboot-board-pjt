@@ -1,13 +1,11 @@
-package org.prac.board.presentation.web;
+package org.framework.studyboard.presentation.web;
 
 import lombok.RequiredArgsConstructor;
-import org.prac.board.application.dto.BoardItemListResDTO;
-import org.prac.board.application.service.BoardService;
-import org.prac.board.domain.model.Board;
+import org.framework.studyboard.application.dto.BoardItemListResDTO;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-
+import org.framework.studyboard.application.service.BoardService;
 import java.util.List;
 
 @RestController

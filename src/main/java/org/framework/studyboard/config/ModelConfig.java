@@ -1,4 +1,4 @@
-package org.prac.board.config;
+package org.framework.studyboard.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
